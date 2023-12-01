@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600;900&family=Lato:ital,wght@0,100;0,400;1,100;1,300&family=Libre+Franklin:ital@1&family=Playpen+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo {
+    text-decoration: none;
+    color: #0052b1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #0052b1;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 30px;
+}
+.navigation a:hover {
+    color: #601cfc;
+}
+
+section {
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/Purple\ And\ Pink\ Gradient\ Jamboard\ Background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0052b1;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-btn {
+   color: #fff;
+   background-color: #0052b1;
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight: 600;
+   display: inline-block;
+   padding: 0.9375em 2.1875em;
+   letter-spacing: 1px;
+   border-radius: 15px;
+   margin-bottom: 40px;
+}
